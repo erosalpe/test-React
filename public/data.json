@@ -1,26 +1,122 @@
 [
     {
         "id": 1,
-        "nome": "Mario Rossi",
+        "name": "Mario Rossi",
         "job": "Sviluppatore",
-        "image": "mario_rossi.jpg"
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
     },
     {
         "id": 2,
-        "nome": "Luca Bianchi",
+        "name": "Luca Bianchi",
         "job": "Designer",
-        "image": "luca_bianchi.jpg"
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
     },
     {
         "id": 3,
-        "nome": "Giulia Verdi",
+        "name": "Giulia Verdi",
         "job": "Project Manager",
-        "image": "giulia_verdi.jpg"
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
     },
     {
         "id": 4,
-        "nome": "Francesca Neri",
+        "name": "Francesca Neri",
         "job": "Analista",
-        "image": "francesca_neri.jpg"
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 5,
+        "name": "Alessandro Ricci",
+        "job": "Ingegnere",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 6,
+        "name": "Elena Russo",
+        "job": "Consulente",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 7,
+        "name": "Marco Ferrari",
+        "job": "Contabile",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 8,
+        "name": "Sofia Barone",
+        "job": "Marketing",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 9,
+        "name": "Davide Colombo",
+        "job": "Ricercatore",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 10,
+        "name": "Martina Lombardi",
+        "job": "HR",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 11,
+        "name": "Giorgio Gallo",
+        "job": "Tecnico",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 12,
+        "name": "Sara Caruso",
+        "job": "Traduttrice",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 13,
+        "name": "Federico Amato",
+        "job": "Avvocato",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 14,
+        "name": "Laura Greco",
+        "job": "Architetto",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 15,
+        "name": "Antonio Rizzo",
+        "job": "Medico",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 16,
+        "name": "Vittoria Costa",
+        "job": "Infermiere",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 17,
+        "name": "Gabriele Marino",
+        "job": "Fisioterapista",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 18,
+        "name": "Alessia Fontana",
+        "job": "Psicologa",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 19,
+        "name": "Andrea Bruno",
+        "job": "Chirurgo",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
+    },
+    {
+        "id": 20,
+        "name": "Chiara Marchetti",
+        "job": "Farmacista",
+        "image": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
     }
 ]
