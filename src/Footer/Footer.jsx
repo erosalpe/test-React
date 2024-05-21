@@ -3,7 +3,7 @@ import './footer.css';
 function Footer(){
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} First Time Testing React</p>
+            <p className="m-0">&copy; {new Date().getFullYear()} First Time Testing React</p>
         </footer>
     );
 }

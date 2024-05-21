@@ -15,18 +15,20 @@ function Body() {
     }, []);
 
     return (
-        <div className="container py-5">
-            <h4>Il Nostro Team:</h4>
-            <div className="d-flex flex-wrap gap-4">
-                {usersData.map((element) => (
-                    <Card
-                        key={element.id}
-                        id={element.id}
-                        name={element.name}
-                        job={element.job}
-                        image={element.image}
-                    />
-                ))}
+        <div className="bodyBg">
+            <div className="container py-5">
+                <h4>Il Nostro Team:</h4>
+                <div className="d-flex flex-wrap gap-4">
+                    {usersData.map((element) => (
+                        <Card
+                            key={element.id}
+                            id={element.id}
+                            name={element.name}
+                            job={element.job}
+                            image={element.image}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     );

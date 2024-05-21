@@ -1,3 +1,8 @@
 nav{
-    background-color: darkgray;
+    background-color: lightcyan;
+}
+
+li>a{
+    color: black;
+    text-decoration: none;
 }

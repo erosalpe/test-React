@@ -9,7 +9,7 @@ function Header(){
                     </h3>
                 </div>
                 <div>
-                    <ul className="d-flex list-unstyled gap-3">
+                    <ul className="d-flex list-unstyled gap-3 m-0">
                         <li>
                             <a href="#">Home</a>
                         </li>
