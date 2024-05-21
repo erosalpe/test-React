@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nome": "Mario Rossi",
+        "job": "Sviluppatore",
+        "image": "mario_rossi.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Luca Bianchi",
+        "job": "Designer",
+        "image": "luca_bianchi.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Giulia Verdi",
+        "job": "Project Manager",
+        "image": "giulia_verdi.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Francesca Neri",
+        "job": "Analista",
+        "image": "francesca_neri.jpg"
+    }
+]
