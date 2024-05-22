@@ -13,6 +13,8 @@ function Card(props){
 }
 
 Card.defaultProps = {
+    name: "Nome",
+    job: "Lavoro",
     image: 'https://picsum.photos/200',
 }
 
