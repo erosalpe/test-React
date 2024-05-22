@@ -12,4 +12,8 @@ function Card(props){
     );
 }
 
+Card.defaultProps = {
+    image: 'https://picsum.photos/200',
+}
+
 export default Card
