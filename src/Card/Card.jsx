@@ -1,4 +1,5 @@
 import './card.css';
+import ConfettiButton from '../Button/ConfettiButton.jsx';
 function Card(props){
     return(
         <div className="card text-center">
@@ -6,7 +7,7 @@ function Card(props){
             <div className="card-body">
                 <h5 className="card-title">{props.name}</h5>
                 <p className="card-text">{props.job}</p>
-                <a href="#" className="btn btn-primary">Contattami !</a>
+                <ConfettiButton/>
             </div>
         </div>
     );

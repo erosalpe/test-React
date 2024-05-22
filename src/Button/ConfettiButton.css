@@ -1,0 +1,9 @@
+button{
+    background: black;
+    color: white;
+    transition: all 0.35s ease;
+}
+
+button:hover{
+    scale: 1.05;
+}
