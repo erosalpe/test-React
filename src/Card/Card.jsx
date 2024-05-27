@@ -6,12 +6,12 @@ function Card(props){
     const [points, setPoints] = useState(0);
 
     const incrementPoints = () =>{
-        setPoints(points + 1);
+        setPoints(p => p + 1);
     }
 
     const decrementPoints = () =>{
         if(points > 0){
-            setPoints(points - 1);
+            setPoints(p => p - 1);
         }
     }
 
