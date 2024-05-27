@@ -2,8 +2,8 @@ import confetti from "https://esm.run/canvas-confetti@1";
 import './ConfettiButton.css';
 function ConfettiButton() {
 
-    const buttonClick = () => {
-        const buttonRect = event.target.getBoundingClientRect();
+    const buttonClick = (e) => {
+        const buttonRect = e.target.getBoundingClientRect();
         const buttonX = buttonRect.left + buttonRect.width / 2;
         const buttonY = buttonRect.top + buttonRect.height / 2;
 
@@ -21,7 +21,7 @@ function ConfettiButton() {
     };
 
     return(
-        <button className="btn btn-primary" onClick={() => buttonClick()}>Confetti</button>
+        <button className="btn btn-primary" onClick={(e) => buttonClick(e)}>Confetti</button>
     );
 }
 
