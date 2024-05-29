@@ -23,8 +23,8 @@ function Card(props){
                 <p className="card-text">{props.job}</p>
                 <p>Punti totali: {points}</p>
                 <div className="d-flex align-items-center justify-content-center gap-3 pb-3">
-                    <button onClick={() => incrementPoints()} className="btn btn-success px-3 fs-4">+</button>
-                    <button onClick={() => decrementPoints()} className="btn btn-danger px-3 fs-4">-</button>
+                    <button onClick={() => incrementPoints()} className="btn btn-success px-2 py-0 fs-4">+</button>
+                    <button onClick={() => decrementPoints()} className="btn btn-danger px-2 py-0 fs-4">-</button>
                 </div>
                     
                 <ConfettiButton/>
