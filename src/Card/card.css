@@ -3,3 +3,7 @@
     --columns: 5;
     flex-basis: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
 }
+
+.card img {
+    aspect-ratio: 1/1;
+}

@@ -1,9 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import './body.css';
 import Card from '../Card/Card.jsx';
+import FormCard from '../FormCard/FormCard.jsx';
 
 function Body() {
     const [usersData, setUsersData] = useState([]);
+
+    const [usersDataLength, setUsersDataLength] = useState();
+
+    const addUsersDataLength = () => {
+        setUsersDataLength(usersDataLength = usersData.length());
+    }
+
+    const addUser = (user) => {
+        setUsersData([...usersData, user]);
+      };
 
     useEffect(() => {
         fetch('/data.json')
@@ -29,6 +40,8 @@ function Body() {
                         />
                     ))}
                 </div>
+
+                <FormCard addUser={addUser} usersDataLength={addUsersDataLength}/>
             </div>
         </div>
     );
